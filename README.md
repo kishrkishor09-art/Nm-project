@@ -1,73 +1,28 @@
-# Welcome to your Lovable project
+Project Title
+E-Commerce Shopping Cart
+Project Description
+This project is a fully functional, dynamic e-commerce shopping cart application. It provides users with a seamless shopping experience, allowing them to browse products, add items to their cart, and complete the checkout process. The project is designed to be responsive, ensuring a consistent user experience across different devices. 
+Key Features
+Product Browsing: Display a list of products with images, descriptions, and prices.
+Filter and Sort: Allow users to filter products by category or size and sort them by price.
+Interactive Shopping Cart: Users can add, view, update the quantity of, and remove products from their cart.
+Persistent Cart Data: The cart's contents are saved, even if the user refreshes the page or navigates away.
+Checkout Process: A multi-step checkout form to collect user information, including shipping and payment details.
+Admin Dashboard: A separate interface for administrators to manage products, view orders, and manage inventory.
+User Authentication: Secure user registration and login functionality.
+Payment Integration (Demo): A demonstration of the payment process. Note: The payment is simulated and not integrated with a real payment gateway.
+Responsive Design: Optimized for a variety of devices, from desktops to mobile phones. 
+Technologies Used
+Frontend:
+HTML, CSS, JavaScript (ES6+)
+React (with Hooks or Redux for state management)
+Libraries: react-router-dom, axios
+Backend:
+Node.js and Express.js
+MongoDB with Mongoose for the database
+JSON Web Tokens (JWT) for authentication
+Other Tools:
+Package Manager: npm or yarn
+API Testing: Postman
+Deployment: Heroku, MongoDB Atlas, or similar platforms 
 
-## Project info
-
-**URL**: https://lovable.dev/projects/1caa8085-0a7a-4a24-9a99-05aed06ff0bb
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/1caa8085-0a7a-4a24-9a99-05aed06ff0bb) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1caa8085-0a7a-4a24-9a99-05aed06ff0bb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
